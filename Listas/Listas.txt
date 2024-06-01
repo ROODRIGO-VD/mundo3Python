@@ -1,0 +1,30 @@
+#Adicionar valores em listas
+
+lanche = ["Hamburger", "Suco", "Pizza", "Picole"]
+
+#Adiciona sempre ao final da lista
+lanche.append("Cookie")
+
+#Você pode escolher onde colocar na lista
+
+lanche.insert(0,"Cachorro-Quente")
+
+
+#Apagar elementos da lista
+
+del lanche[3]
+
+#Normalmente usado para eliminar o último valor
+lanche.pop(3)
+
+#Eliminar pelo conteúdo
+lanche.remove("Pizza")
+
+
+
+
+#Criar listas através de range
+
+valores = list(range(4, 11))
+
+
